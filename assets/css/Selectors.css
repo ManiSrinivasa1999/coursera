@@ -1,0 +1,78 @@
+/*Selectors
+
+1.Element Selector:
+Eg:
+p{
+    color:blue;
+}
+
+<p>.....</p>
+<p>.....</p>
+
+2.Class Selector:
+Eg:
+.blue{
+    color:blue;
+}
+
+<p class="blue">.....</p>
+
+3.ID Selectors
+Eg:
+#name {
+    color:blue;
+}
+
+<div id="name">.....</div>
+
+Grouping Selectors:
+Eg:
+div,.blue {
+    color:blue;
+}
+
+<p class="blue">......</p>
+<p>.....</p>
+<div>............</div>
+
+Combining Selectors
+
+Eg:
+Every p that has class="big"
+
+p.big {
+    font-size:20px;
+}
+
+Child Selectors:
+
+Eg:
+article > p {
+    color:blue;
+}
+
+<article> 
+<p>........</p> //Blue text
+</article>
+<p>......</p> //unaffected text
+<article>
+<div><p>.........</p></div>   //unaffected text
+</article>
+
+Descendant Selector
+
+Eg:
+article p{
+  color:blue;
+}
+
+<article> 
+<p>........</p> //Blue text
+</article>
+<p>......</p> //unaffected text
+<article>
+<div><p>.........</p></div>   //Blue text
+</article>
+*/
+
+
