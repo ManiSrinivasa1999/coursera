@@ -73,6 +73,24 @@ article p{
 <article>
 <div><p>.........</p></div>   //Blue text
 </article>
+
+Pseudo-class Selectors
+
+:link
+:visited
+:hover
+:active
+:nth-child(....)
+
+Eg:
+
+a:link,a:visted{
+    //styles
+}
+a:hover,a:active {
+    background-color:red;
+    color:purple;
+}
 */
 
 
