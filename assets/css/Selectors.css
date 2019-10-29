@@ -94,6 +94,11 @@ a:hover,a:active {
 header li :nth-child(3) {
     //styles
 }
+
+Style Placements:
+1.Internal CSS
+2.External CSS  //real sites alomost always use extenal CSS
+3.Inline CSS //for quick testing
 */
 
 
